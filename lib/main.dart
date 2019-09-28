@@ -91,6 +91,27 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
+              SizedBox(
+                height: 20.0,
+                width: 150.0,
+                child: Divider(
+                  color: Colors.brown.shade100,
+                  thickness: 1.0,
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.all(16.0),
+                child: Center(
+                  child: Text(
+                    'www.ammwinchande.me',
+                    style: TextStyle(
+                      fontFamily: 'Pacifico',
+                      color: Colors.brown.shade900,
+                      fontSize: 28.0,
+                    ),
+                  ),
+                ),
+              )
             ],
           ),
         ),
